@@ -46,7 +46,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/RetroPilot/retropilot-server
+          images: ghcr.io/Paperboypaddy/retropilot-server
           tags: |
             type=ref,event=branch
             type=ref,event=pr
